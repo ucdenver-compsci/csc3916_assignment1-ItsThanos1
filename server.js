@@ -1,7 +1,7 @@
 var express = require('express');
 var server = express();
 
-// Middleware to parse text/plain requests
+
 server.use(express.text());
 
 server.post("/", function(req, res) {
